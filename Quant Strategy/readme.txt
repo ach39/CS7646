@@ -1,11 +1,21 @@
 
 Goal: Develop trading strategies using Technical Analysis, and test them using your market simulator. You will then utilize your Random Tree learner to train and test a learning trading algorithm. 
 
+-------------------------------------------------------------
+Data Details, Dates and Rules
+-------------------------------------------------------------
+ 1. Use only the data provided for this course. You are not allowed to import external data.
+ 2. Trade only the symbol AAPL (however, you may, if you like, use data from other symbols to inform your strategy).
+ 3. The in sample/training period is January 1, 2008 to December 31 2009.
+ 4. The out of sample/testing period is January 1, 2010 to December 31 2011.
+ 5. Starting cash is $100,000.
+ 6. Allowable positions are: 200 shares long, 200 shares short, 0 shares.
+ 7. Benchmark: The performance of a portfolio starting with $100,000 cash, investing in 200 shares of AAPL and holding that position
+ 8. There is no limit on leverage.
 
-
-###############################################################
-Instructions
-###############################################################
+-------------------------------------------------------------
+How to reproduce results ?
+-------------------------------------------------------------
 
 Driver code for mc3p3 is implemneted in main.py, which allows user to select an option to view desired output
 
